@@ -228,6 +228,35 @@ section{
     font-weight: 700;
     box-shadow: 0 0 40px #f6ff00;
 }
+#hire-image-container {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    z-index: 999;
+}
+
+#hire-image {
+    width: 100%;
+    height: auto;
+    animation: slideDown 1s ease-out forwards;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 
 /* Responsive adjustments */
 @media (max-width:884px) {
