@@ -1,0 +1,166 @@
+<html lang="en">
+ <head>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1.0"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .hover-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .hover-box {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+  </style>
+  <title>
+   Blog - Abir Kundu
+  </title>
+ </head>
+ <body class="bg-gray-100">
+  <nav class="bg-white shadow-md">
+   <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+    <div class="text-2xl font-bold" data-aos="zoom-in" data-aos-duration="1500">
+     Abir <span class="text-blue-500">Kundu</span>
+    </div>
+    <div class="hidden md:flex space-x-6">
+     <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+      <a class="text-gray-700 hover:text-blue-500" href="index.html">
+       Home
+      </a>
+     </div>
+     <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+      <a class="text-gray-700 hover:text-blue-500" href="skills.html">
+       Skills
+      </a>
+     </div>
+     <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+      <a class="text-gray-700 hover:text-blue-500" href="projects.html">
+       Projects
+      </a>
+     </div>
+     <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+      <a class="text-gray-700 hover:text-blue-500" href="experience.html">
+       Experience
+      </a>
+     </div>
+     <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+      <a class="text-gray-700 hover:text-blue-500" href="certification.html">
+       Certifications
+      </a>
+     </div>
+     <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
+      <a class="text-gray-700 hover:text-blue-500" href="interests.html">
+       Interests
+      </a>
+     </div>
+     <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+      <a class="text-gray-700 hover:text-blue-500" href="blog.html">
+       Blog
+      </a>
+     </div>
+     <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
+      <a class="text-gray-700 hover:text-blue-500" href="contact.html">
+       Contact
+      </a>
+     </div>
+    </div>
+    <i class="fa-solid fa-bars text-gray-700 md:hidden" onclick="hamburg()">
+    </i>
+   </div>
+   <div class="dropdown hidden md:hidden">
+    <div class="links flex flex-col space-y-4 p-4">
+     <a class="text-gray-700 hover:text-blue-500" href="index.html">
+      Home
+     </a>
+     <a class="text-gray-700 hover:text-blue-500" href="skills.html">
+      Skills
+     </a>
+     <a class="text-gray-700 hover:text-blue-500" href="projects.html">
+      Projects
+     </a>
+     <a class="text-gray-700 hover:text-blue-500" href="experience.html">
+      Experience
+     </a>
+     <a class="text-gray-700 hover:text-blue-500" href="certification.html">
+      Certifications
+     </a>
+     <a class="text-gray-700 hover:text-blue-500" href="interests.html">
+      Interests
+     </a>
+     <a class="text-gray-700 hover:text-blue-500" href="blog.html">
+      Blog
+     </a>
+     <a class="text-gray-700 hover:text-blue-500" href="contact.html">
+      Contact
+     </a>
+     <i class="fa-solid fa-xmark text-gray-700" onclick="cancel()">
+     </i>
+    </div>
+   </div>
+  </nav>
+  <section id="blog" class="py-12">
+   <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row items-center">
+     <div class="w-full md:w-1/3 mb-8 md:mb-0" data-aos="zoom-out" data-aos-duration="3000">
+      <img alt="Profile Picture of Abir Kundu" class="rounded-lg shadow-lg" src="abir.jpg"/>
+     </div>
+     <div class="w-full md:w-2/3 md:pl-12">
+      <h2 class="text-3xl font-bold mb-6" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="100">
+       Welcome to My Blog
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+       <div class="bg-white rounded-lg shadow-lg overflow-hidden p-6 hover-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <p>
+         👨‍💻 As a <strong>dedicated Computer Science and Engineering student</strong>, I constantly strive to push the boundaries of technology through innovation and learning. My academic journey has been shaped by a deep passion for software engineering, coding, and technology.
+        </p>
+       </div>
+       <div class="bg-white rounded-lg shadow-lg overflow-hidden p-6 hover-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+        <p>
+         📿 <strong>Proud Hindu 🕉️</strong> - My spiritual journey has always been a significant part of who I am, providing me with strength and clarity in both personal and professional endeavors.
+        </p>
+       </div>
+       <div class="bg-white rounded-lg shadow-lg overflow-hidden p-6 hover-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+        <p>
+         🎂 <strong>Born on 26th December</strong> - The journey from my hometown in Patuakhali to Dhaka has been a path filled with growth, challenges, and countless learning opportunities, which continue to shape me into the individual I aspire to be.
+        </p>
+       </div>
+       <div class="bg-white rounded-lg shadow-lg overflow-hidden p-6 hover-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+        <p>
+         💛 <strong>Helping Hearts</strong> is more than just a phrase for me; it's a way of life. Whether it's through coding, volunteering, or mentoring, I believe in the power of compassion and its ability to create positive change.
+        </p>
+       </div>
+       <div class="bg-white rounded-lg shadow-lg overflow-hidden p-6 hover-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+        <p>
+         🌟 <strong>Turning Dreams into Reality</strong> - My vision is to leverage technology to solve real-world problems, turning innovative ideas into practical solutions. Every project, every code, is a step towards that goal.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js">
+  </script>
+  <script>
+   AOS.init({ offset: 0 });
+  </script>
+  <script>
+   function hamburg() {
+            document.querySelector('.dropdown').classList.toggle('hidden');
+        }
+
+        function cancel() {
+            document.querySelector('.dropdown').classList.add('hidden');
+        }
+  </script>
+ </body>
+</html>
