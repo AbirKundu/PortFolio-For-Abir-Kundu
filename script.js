@@ -54,3 +54,19 @@ function eraseText(){
 }
 
 window.onload = typeWriter
+
+function showHireImage() {
+    const hireImageContainer = document.getElementById('hire-image-container');
+    
+    // Clone the image to allow for multiple animations
+    const newImage = hireImageContainer.cloneNode(true);
+    document.body.appendChild(newImage);
+
+    // Show and animate the image
+    newImage.style.display = 'block';
+
+    // Remove the image after the animation completes
+    setTimeout(() => {
+        newImage.remove();
+    }, 4000); // Adjust the timeout according to the animation duration
+}
